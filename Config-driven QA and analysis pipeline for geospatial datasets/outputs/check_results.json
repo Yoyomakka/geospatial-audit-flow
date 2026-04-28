@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "warnings": 0,
+    "failed": 0
+  },
+  "results": [
+    {
+      "name": "crs",
+      "status": "PASS",
+      "message": "Dataset CRS is EPSG:4326.",
+      "value": "EPSG:4326"
+    },
+    {
+      "name": "empty_geometry",
+      "status": "PASS",
+      "message": "No empty geometries found.",
+      "value": {
+        "empty_count": 0,
+        "row_count": 8
+      }
+    },
+    {
+      "name": "invalid_geometry",
+      "status": "PASS",
+      "message": "All non-empty geometries are valid.",
+      "value": {
+        "invalid_count": 0,
+        "row_count": 8
+      }
+    },
+    {
+      "name": "duplicate_geometry",
+      "status": "PASS",
+      "message": "No duplicate geometries found.",
+      "value": {
+        "duplicate_geometry_count": 0
+      }
+    },
+    {
+      "name": "missing_values",
+      "status": "PASS",
+      "message": "No columns exceed 40% missing values.",
+      "value": {
+        "name": 0.0,
+        "park_type": 0.125,
+        "district_hint": 0.0
+      }
+    },
+    {
+      "name": "geometry_types",
+      "status": "PASS",
+      "message": "Geometry type is consistent.",
+      "value": {
+        "Polygon": 8
+      }
+    },
+    {
+      "name": "bbox",
+      "status": "PASS",
+      "message": "Dataset bounds calculated successfully.",
+      "value": {
+        "minx": -0.134,
+        "miny": 51.47,
+        "maxx": -0.069,
+        "maxy": 51.533
+      }
+    }
+  ]
+}

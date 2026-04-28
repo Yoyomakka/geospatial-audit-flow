@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "districts",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "district_name": "Northbank", "district_code": "NB" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.1, 51.5 ], [ -0.1, 51.54 ], [ -0.14, 51.54 ], [ -0.14, 51.5 ], [ -0.1, 51.5 ] ] ] } },
+{ "type": "Feature", "properties": { "district_name": "East Market", "district_code": "EM" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.06, 51.5 ], [ -0.06, 51.54 ], [ -0.1, 51.54 ], [ -0.1, 51.5 ], [ -0.06, 51.5 ] ] ] } },
+{ "type": "Feature", "properties": { "district_name": "South Gardens", "district_code": "SG" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.06, 51.46 ], [ -0.06, 51.5 ], [ -0.1, 51.5 ], [ -0.1, 51.46 ], [ -0.06, 51.46 ] ] ] } },
+{ "type": "Feature", "properties": { "district_name": "West Hill", "district_code": "WH" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.1, 51.46 ], [ -0.1, 51.5 ], [ -0.14, 51.5 ], [ -0.14, 51.46 ], [ -0.1, 51.46 ] ] ] } }
+]
+}

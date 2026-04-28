@@ -1,0 +1,51 @@
+project:
+  name: urban-green-space-demo
+  description: Audit and analyze urban park polygons by district.
+
+input:
+  path: examples/urban_green_space_demo/data/parks.geojson
+  layer: null
+  crs: EPSG:4326
+
+output:
+  dir: outputs
+  cleaned_path: outputs/cleaned.gpkg
+
+checks:
+  crs: true
+  empty_geometry: true
+  invalid_geometry: true
+  duplicate_geometry: true
+  missing_values: true
+  geometry_types: true
+  bbox: true
+
+fixes:
+  enabled: true
+  repair_geometry: true
+  drop_empty_geometry: true
+  target_crs: EPSG:3857
+
+analysis:
+  - type: area_by_category
+    category_column: park_type
+    output: outputs/park_area_by_type.csv
+
+  - type: count_by_polygon
+    polygon_path: examples/urban_green_space_demo/data/districts.geojson
+    polygon_name_column: district_name
+    output: outputs/parks_by_district.csv
+
+map:
+  enabled: true
+  output: outputs/preview_map.html
+  tooltip_columns:
+    - name
+    - park_type
+
+report:
+  enabled: true
+  formats:
+    - markdown
+    - html
+  output_dir: outputs

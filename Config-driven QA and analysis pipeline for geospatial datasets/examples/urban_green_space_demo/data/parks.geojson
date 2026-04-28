@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "parks",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Willow Square", "park_type": "neighborhood", "district_hint": "NB" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.126, 51.512 ], [ -0.126, 51.52 ], [ -0.134, 51.52 ], [ -0.134, 51.512 ], [ -0.126, 51.512 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Canal Pocket Park", "park_type": "pocket", "district_hint": "NB" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.116, 51.526 ], [ -0.116, 51.531 ], [ -0.12, 51.531 ], [ -0.12, 51.526 ], [ -0.116, 51.526 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Market Green", "park_type": "civic", "district_hint": "EM" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.083, 51.512 ], [ -0.083, 51.52 ], [ -0.091, 51.52 ], [ -0.091, 51.512 ], [ -0.083, 51.512 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Foundry Fields", "park_type": "sports", "district_hint": "EM" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.069, 51.523 ], [ -0.069, 51.533 ], [ -0.078, 51.533 ], [ -0.078, 51.523 ], [ -0.069, 51.523 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Southgate Meadow", "park_type": "natural", "district_hint": "SG" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.081, 51.472 ], [ -0.081, 51.484 ], [ -0.092, 51.484 ], [ -0.092, 51.472 ], [ -0.081, 51.472 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Hilltop Common", "park_type": "common", "district_hint": "WH" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.119, 51.47 ], [ -0.119, 51.485 ], [ -0.132, 51.485 ], [ -0.132, 51.47 ], [ -0.119, 51.47 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Library Garden", "park_type": null, "district_hint": "SG" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.069, 51.49 ], [ -0.069, 51.496 ], [ -0.074, 51.496 ], [ -0.074, 51.49 ], [ -0.069, 51.49 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Riverside Play Lot", "park_type": "playground", "district_hint": "NB" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.106, 51.505 ], [ -0.106, 51.512 ], [ -0.111, 51.512 ], [ -0.111, 51.505 ], [ -0.106, 51.505 ] ] ] } }
+]
+}
